@@ -12,7 +12,7 @@ public class Q3 {
             j = i%10;
             product*= j;
         }
-        System.out.println("The sum of digits of number is " + product);
+        System.out.println("The product of digits of number is " + product);
         scanner.close();
    } 
 }
