@@ -40,7 +40,7 @@ public class Q3 {
 
     }
     else{
-        System.out.println("incorrect responce");
+        System.out.println("incorrect responce. Try again");
     }
      scanner.close();
     }
