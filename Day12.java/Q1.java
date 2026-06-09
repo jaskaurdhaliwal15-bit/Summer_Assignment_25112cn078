@@ -1,21 +1,22 @@
 import java.util.Scanner;
-public class Q4 {
+public class Q1 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         int num;
-        int newNum = 0;
-        int j;
-        
-        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number ");
+        num = sc.nextInt();
+        Palindrom(num);
 
-        System.out.print("Enter the number: ");
-        num = scanner.nextInt();
-        int i = num;
-        
-         while(i >0){
+        sc.close();
+
+    }
+
+    static void Palindrom(int num){
+        int newNum = 0;
+         for(int i = num ; i > 0 ; i/= 10){
             
-            j = i% 10;
+            int j = i% 10;
           newNum = (newNum*10)+ j;
-          i/= 10;
         }  
 
         if(newNum == num){
@@ -24,7 +25,5 @@ public class Q4 {
         else{
             System.out.println("The number is not palindrome");
         }
-       
-        scanner.close();
     }
 }
