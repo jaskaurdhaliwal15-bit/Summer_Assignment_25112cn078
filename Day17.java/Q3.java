@@ -7,8 +7,7 @@ public class Q3 {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<>();
         ArrayList<Integer> list1 = new ArrayList<>();
-        ArrayList<Integer> list2 = new ArrayList<>();
-
+       
         int element;
         int element1;
         // take input
