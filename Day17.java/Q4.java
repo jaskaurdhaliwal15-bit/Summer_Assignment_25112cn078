@@ -34,6 +34,7 @@ public class Q4 {
         }
 
         // display array
+
         System.out.println("original array 1 " + list);
          System.out.println("original array 2 " + list1);
 
